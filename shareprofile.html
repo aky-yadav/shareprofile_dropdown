@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+body{
+    margin:0;
+    padding:0;
+ }
+.dropdown-tabs{
+    display: flex;
+    flex-direction: column;
+    width: 201px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #e9e9e9;
+    background-color: #ffffff;
+  }
+.dropdown-tabs>div>i{
+    background-size: cover;
+    align-self: center;
+  }
+.dropdown-tabs> .share >i{
+    width:21.2px;
+    height:14.2px;
+  }
+.dropdown-tabs> .follow >i{
+    width:22.4px;
+    height:20.6px;
+  }
+.dropdown-tabs> .report >i{
+    width:15.1px;
+    height:18px;
+  }
+.dropdown-tabs>div{
+    width:180px;
+    overflow:hidden;
+  }
+.dropdown-tabs>div:hover{
+    background-color: #f8f8f8;
+  }
+.dropdown-tabs>div>span,.dropdown-tabs>div{
+    padding-left: 19.4px;
+    color: #b8b8b8;
+    font-size: 14px;
+    letter-spacing: 0.24px;
+    font-family: proxima_novasemibold, sans-serif;
+    align-self: center;
+  }
+
+.dropdown-tabs .share>i{
+    background-image: url("Component7.png");
+ }
+.dropdown-tabs .follow>i{
+    background-image: url("Component6.png");
+  }
+.dropdown-tabs .report>i{
+    background-image: url("Component5.svg");
+  }
+.share, .follow, .report{
+    display: flex;
+    flex-direction: row;
+    height: 41px;
+  }
+.dropdown-tabs> .share >span{
+    color: #f86d3a;
+  }
+.dropdown-tabs> .report >span{
+    margin-left:8.6px;
+  }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown-tabs">
+      <div class="share">
+          <i class="fas"> </i>
+          <span>Share Profile</span>
+      </div>
+      <div class="follow">
+          <i class="fas"> </i>
+          <span>Follow</span>
+      </div>
+      <div class="report">
+          <i class="fas"> </i>
+          <span>Report/Block</span>
+      </div>
+    </div>
+  </body>
+</html>
